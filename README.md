@@ -5,7 +5,7 @@ Tool for extracting and creating frame time statistics from logs of frametime re
 ### Prerequisites
 To work correctly, you need the installed **relevant** Python language environment version. Relevant versions Python environments and installation files (official site): [link](https://www.python.org/downloads/).
 ### Installing
-For installation you just need to download the [fthndlr.py](https://github.com/FlexxxerAlex/fthndlr/fthndlr.py) file (which is located in the root directory of the repository) and do not forget the location of the downloaded file :grinning:
+For installation you just need to download the [fthndlr.py](https://github.com/FlexxxerAlex/fthndlr/blob/master/fthndlr.py) file (which is located in the root directory of the repository) and do not forget the location of the downloaded file :grinning:
 
 ## Usage
 ##### Learn how to execute python
@@ -14,7 +14,7 @@ Depending on the operating systems (windows, macos, linux) and the environment, 
 **Second case:** `pythonM --version`, where M - **first digit** of relevant Python language version (e.g. you installed the Python version number 3.8.2 - you must substitute 3 for M). If the result (which was printed in the console / terminal) is equal to *Python N* (where N - relevant Python language version), then you should use the **pythonM** entry instead of **python** in the usage instructions.
 
 ##### Script execution
-In order to run the [fthndlr.py](https://github.com/FlexxxerAlex/fthndlr/fthndlr.py) script, you need to write the following to console/terminal:
+In order to run the [fthndlr.py](https://github.com/FlexxxerAlex/fthndlr/blob/master/fthndlr.py) script, you need to write the following to console/terminal:
 `$> python fthndlr.py [args]`, where `[args]` - script arguments
 **What arguments can be passed?**
 Show help info and supported arguments list:
