@@ -117,7 +117,7 @@ def frameview_parser(filepath: str):
 
 # rtsstimerender parser
 def rtsstimerender_parser(filepath: str):
-    fraps_parser(filepath)
+    return fraps_parser(filepath)
 
 # supported programs names and them parser functions
 parsers_dict = {
