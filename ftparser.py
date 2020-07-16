@@ -115,15 +115,15 @@ def frameview_parser(filepath: str):
 
     return frame_times
 
-# msi afterburner parser
-def msiaft_parser(filepath: str):
-    pass
+# rtsstimerender parser
+def rtsstimerender_parser(filepath: str):
+    fraps_parser(filepath)
 
 # supported programs names and them parser functions
 parsers_dict = {
     "fraps": fraps_parser,
     "frameview": frameview_parser,
-    # "msiaft": msiaft_parser
+    "rtsstimerender": rtsstimerender_parser
 }
 
 argParser = argparse.ArgumentParser(description='tool for frame time parsing and statistics creation')
