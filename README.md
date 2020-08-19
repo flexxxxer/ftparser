@@ -44,6 +44,7 @@ You should append `-o filename` after the main part with `-f [file] -p [program]
 | --- | --- | --- | --- |
 | frameview support | parer support for frameview log files | | :heavy_check_mark: |
 | fraps support | parer support for frameview log files | | :heavy_check_mark: |
+| rtsstimerender  | parer support for rtsstimerender log files | | :heavy_check_mark: |
 | any linux tool support | parer support for any linux frametime tool | | :clock9: |
 | any macos tool support | parer support for any macos frametime tool | | :clock9: |
 
